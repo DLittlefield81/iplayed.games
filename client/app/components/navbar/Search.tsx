@@ -32,7 +32,7 @@ font-semibold
 px-6
               "
         >
-          Anywhere
+          Local
         </div>
         <div className="
         hidden
@@ -44,7 +44,7 @@ px-6
         flex-1
         text-center
         ">
-Anyweek
+          Remote
         </div>
         <div className="
         text-sm
@@ -56,9 +56,9 @@ Anyweek
        items-center
        gap-3
         ">
-          <div className="hidden sm:block">Players</div>
+          <div className="hidden sm:block">Places</div>
           <div className="p-2 bg-rose-500 rounded-full text-white">
-            <BiSearch size={18}/>
+            <BiSearch size={18} />
           </div>
         </div>
       </div>
