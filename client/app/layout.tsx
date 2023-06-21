@@ -3,7 +3,8 @@ import { Nunito } from 'next/font/google';
 import './globals.css'
 import Navbar from './components/navbar/Navbar';
 import ClientOnly from './components/ClientOnly';
-import Modal from './components/modals/modal';
+//import Modal from './components/modals/modal';
+import RegisterModal from './components/modals/RegisterModal';
 
 export const metadata = {
   title: 'iPlayed',
@@ -23,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
 
-          <Modal title="MODAL TITLE" actionLabel="Submit" isOpen/>
+          <RegisterModal/>
         <Navbar />
 
         {children}
